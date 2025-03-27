@@ -29,11 +29,11 @@ nav{
     gap: 44px;
     font-size: 16px;
     font-weight: 500;
-    color: #000;
 }
 
-.nav-links a:link{
+.nav-links a {
     text-decoration: none;
+    color: #000; 
 }
 
 .nav-links a:hover{
@@ -137,6 +137,7 @@ nav{
 
 .our-products{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .our-products-header{
@@ -152,6 +153,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 36px;
+    margin-bottom: 50px;
 }
 
 .product{
@@ -197,4 +199,162 @@ nav{
     font-size: 20px;
     line-height: 150%;
     color: #3a3a3a;
+}
+
+.show-more{
+    display: flex;
+    justify-content: center;
+}
+
+.show-more-button{
+    border: 1px solid #B88E2F;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #B88E2F;
+}
+
+
+.beautiful-rooms{
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.beautiful-rooms-header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #3a3a3a;
+    margin-bottom: 5px;
+}
+
+.beautiful-rooms-para{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #616161;
+    margin-bottom: 10px;
+    width: 368px;
+}
+
+.explore-more-btn{
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    background-color: #B88E2F;
+}
+
+.share-setup-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-stup-para{
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #616161;
+}
+
+.hash-tag{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+
+.footer{
+    margin-top: 200px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-name-text-logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.footer-name-text-address{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9f9f9f;
+}
+
+.footer-heading{
+    font-weight: 500;
+    font-size: 16px;
+    color: #9f9f9f;
+    margin-bottom: 50px;
+}
+
+.nav-links-footer{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 18px;
+}
+
+.nav-links-footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-input{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-newsletter input {
+    border: none;
+    border-bottom: 2px solid #000; 
+    outline: none;
+    padding: 10px; 
+    width: 100%; 
+    font-weight: 400;
+    font-size: 14px;
+    color: #9f9f9f;
+    background: transparent; 
+}
+
+.footer-newsletter button{
+    border: none;
+    border-bottom: 2px solid #000; 
+    outline: none;
+    padding: 10px; 
+    width: 100%; 
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+}
+
+.footer-copyright-text {
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    text-align: left; 
 }
