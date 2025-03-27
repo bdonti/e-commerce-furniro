@@ -363,6 +363,13 @@ nav{
     display: none;
 }
 
+.footer-copyright-text-mobile{
+    display: none;
+}
+
+.share-setup-img-mobile{
+    display: none;
+}
 
 /* mobile styles  */
 @media screen and (max-width: 600px) {
@@ -382,6 +389,60 @@ nav{
         display: flex;
     }
     
+    .banner {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-img img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .banner-details {
+        position: relative;
+        top: auto; 
+        right: auto; 
+        transform: none; 
+        background-color: #f5ebe2; 
+        padding: 20px;
+        box-shadow: none; 
+        width: 100%;
+        text-align: center; 
+    }
+
+    .banner-span {
+        font-weight: 600;
+        font-size: 14px; 
+        letter-spacing: 0.1em;
+        color: #333;
+    }
+
+    .banner-header {
+        font-weight: 700;
+        font-size: 32px; 
+        line-height: 120%;
+        color: #B88E2F;
+    }
+
+    .banner-para {
+        font-weight: 500;
+        font-size: 16px; 
+        width: 330px;
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px; 
+    }
+
+    .banner-btn {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px; 
+    }
 
     .browse-range-product, .beautiful-rooms{
         flex-direction: column;
@@ -393,6 +454,19 @@ nav{
         justify-content: center;
         align-items: center;
         gap: 24px;
+    }
+
+    .share-setup-img-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .share-setup-img-mobile img{
+        width: 200px;
+        height: 200px;
     }
 
     .footer-content{
@@ -412,6 +486,4 @@ nav{
     .share-setup-img-desktop{
         display: none;
     }
-
-   
 }
