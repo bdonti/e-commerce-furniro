@@ -134,3 +134,67 @@ nav{
     text-align: center;
     color: #333;
 }
+
+.our-products{
+    margin-top: 100px;
+}
+
+.our-products-header{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #3a3a3a
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 36px;
+}
+
+.product{
+    position: relative;
+    width: 285px;
+    overflow: hidden;
+}
+
+.product img{
+    display: block;
+    width: 100%;
+}
+
+
+.discount-price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.product-details{
+    margin-top: 20px;
+}
+
+.product-name{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3a3a3a;
+}
+
+.product-type{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+}
+
+.product-price{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3a3a3a;
+}
