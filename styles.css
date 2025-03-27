@@ -358,3 +358,60 @@ nav{
     color: #000;
     text-align: left; 
 }
+
+.hamburger{
+    display: none;
+}
+
+
+/* mobile styles  */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-logo-links{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+    
+
+    .browse-range-product, .beautiful-rooms{
+        flex-direction: column;
+    }
+
+    .products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .footer-copyright-text{
+        display: none;
+    }
+    .footer-copyright-text-mobile{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .share-setup-img-desktop{
+        display: none;
+    }
+
+   
+}
