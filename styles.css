@@ -371,6 +371,113 @@ nav{
     display: none;
 }
 
+.page-banner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('/images/background-image-all.png');
+    background-size: cover;
+    background-position: center;
+    height: 316px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    text-align: center;
+    font-size: 24px;
+}
+
+.sorting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sorting-section-1, .sorting-section-2{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.vertical-line{
+    display: flex;
+}
+
+.filter, .square, .sort-show, .sort-by{
+    display: flex;
+    gap: 16px;
+}
+
+.sorting-limit-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.pagination-orange-button button{
+    background-color: #B88E2F;
+    padding: 16px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+}
+
+.pagination-button button{
+    padding: 16px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+}
+
+.pagination-next p{
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    align-items: center;
+}
+
+
+.service{
+    display: flex;
+    gap: 8px;
+}
+
+.service img{
+    width: 60px;
+    height: 60px;
+}
+
+.service-type{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    color: #242424;
+}
+
+.service-description{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #898989;
+    display: inline;
+}
+
+
 /* mobile styles  */
 @media screen and (max-width: 600px) {
     .container {
