@@ -534,6 +534,54 @@ nav{
     display: inline;
 }
 
+.cart{
+    display: flex;
+    gap: 56px;
+}
+
+.cart-content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    align-items: center;
+}
+
+.cart-content-row-1-header{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.cart-totals-header{
+    font-weight: 600;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.cart-subtotal, .cart-total{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4px;
+    margin-bottom: 30px;
+}
+
+.check-out-btn-position{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+
+.check-out-btn{
+    border: 1px solid #000;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px 45px; 
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
 
 /* mobile styles  */
 @media screen and (max-width: 600px) {
