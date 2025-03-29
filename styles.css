@@ -552,7 +552,7 @@ nav{
     color: #000;
 }
 
-.cart-totals-header{
+.cart-totals-header, .checkout-header{
     font-weight: 600;
     font-size: 32px;
     color: #000;
@@ -581,6 +581,64 @@ nav{
     font-weight: 400;
     font-size: 20px;
     color: #000;
+}
+
+.checkout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+    align-items: start;
+}
+
+.billing-header{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+
+
+.input-billing {
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.billing-name{
+    display: flex;
+    gap: 24px;
+}
+
+.billing-first-name, 
+.billing-last-name {
+    flex: 1; 
+}
+
+.billing-section{
+    margin-bottom: 20px;
+}
+
+select{
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+    padding: 20px 35px;
+    width: 100%;
+}
+
+.checkout-content-heading-product{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+}
+
+.checkout-content-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* mobile styles  */
