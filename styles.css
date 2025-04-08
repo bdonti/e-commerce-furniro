@@ -781,6 +781,196 @@ select{
     color: #000;
   }
 
+  .sofa-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+
+  .sofa-para{
+    font-size: 16px;
+    color: #9f9f9f;
+  }
+
+  .sofa-arrow{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .sofa-info-asgaard{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .sofa-header{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .sofa-mini{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sofa-heading{
+    display: flex;
+    gap: 24px;
+  }
+
+  .sofa-images{
+    display: flex;
+    gap: 8px;
+  }
+
+  .sofa-name{
+    font-weight: 400;
+    font-size: 42px;
+    color: #000;
+  }
+
+  .sofa-price{
+    font-weight: 500;
+    font-size: 24px;
+    color: #9f9f9f;
+  }
+
+  .sofa-rating-number{
+    font-weight: 400;
+    font-size: 13px;
+    color: #9f9f9f;
+  }
+
+  .sofa-rating{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .sofa-info-detail p{
+    width: 424px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+  }
+
+  .sofa-info-heading{
+    font-weight: 400;
+    font-size: 14px;
+    color: #9f9f9f;
+  }
+
+  .sofa-available-sizes{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .sofa-large-text p{
+    padding: 5px 10px;
+    border: none;
+    background-color: #B88E2F;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+  }
+
+  .sofa-available-colors{
+    display: flex;
+    gap: 10px;
+  }
+
+  .sofa-size-text{
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+  }
+
+  .sofa-place-order{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 6px;
+    align-items: center;
+  }
+
+  .sofa-social{
+    display: flex;
+    gap: 16px;
+  }
+
+  .sofa-placeholder-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .sofa-placeholder-content{
+    font-weight: 400;
+    font-size: 16px;
+    color: #9f9f9f;
+  }
+
+  .sofa-details-header{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .sofa-detail-header-1{
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+  }
+
+  .sofa-detail-header-2-3{
+    font-weight: 400;
+    font-size: 24px;
+    color: #9f9f9f;
+  }
+
+  .sofa-details-info{
+    margin-bottom: 10px;
+  }
+
+  .sofa-details-info p{
+    margin: 0 auto;
+    width: 1026;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #9f9f9f;
+  }
+  
+  .sofa-detail-images{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .related-products-header{
+    font-weight: 500;
+    font-size: 36px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .related-products-column{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
 
 /* mobile styles  */
 @media screen and (max-width: 600px) {
