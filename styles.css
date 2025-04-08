@@ -1049,6 +1049,31 @@ select{
         flex-direction: column;
     }
 
+    .beautiful-rooms-header{
+        font-size: 20px;
+    }
+
+    .browse-range-product img{
+        width: 100%;
+    }
+
+    .hash-tag{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;
+        text-align: center;
+        color: #3a3a3a;
+        margin-bottom: 10px;
+    }
+
+    .beautiful-rooms-para{
+        font-weight: 500;
+        font-size: 16px;
+        color: #616161;
+        margin-bottom: 10px;
+        width: 108px;
+    }
+
     .products{
         display: flex;
         flex-direction: column;
